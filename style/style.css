@@ -55,6 +55,7 @@ a{
     display: flex;
     justify-content: space-between;
     align-items:center;
+    padding: 30px;
 }
 
 .infoScreen{
@@ -112,7 +113,7 @@ a{
     align-items: center;
     justify-content: center;
     margin: 50px 0;
-    margin-bottom: 100px;
+
 }
 
 .twoScreenHeading{
@@ -147,6 +148,8 @@ a{
 .threeScreenCitata{
     display: flex;
     flex-direction:column;
+    margin-right: 80px;
+    margin-left: 80px;
 }
 
 .threeScreenCitataMain{
@@ -180,7 +183,7 @@ a{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 70px 0;
+    margin: 50px 0;
 }
 
 .fourScreenBlock{
@@ -189,8 +192,9 @@ a{
     align-items: center;
     justify-content: space-between;
     background-color: #3882F6;
-    padding: 70px;
+    padding: 50px 70px;
     border-radius: 10px;
+    margin: 50px 0;
 
 }
 
@@ -223,4 +227,19 @@ a{
     border-radius: 5px;
     border: 4px white solid;
     margin-right: 70px;
+}
+
+.fiveScreen{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--backgroundColor);
+    padding: 25px 0;
+}
+
+.fiveScreenText{
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight: lighter;
+    text-align: center;
 }
