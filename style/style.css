@@ -1,8 +1,8 @@
-body{
+body {
     margin: 0;
 }
 
-:root{
+:root {
     --mainColor: #3882F6;
     --backgroundColor: #1F2937;
     --linkColor: #E5E7EB;
@@ -12,21 +12,21 @@ body{
 
 
 
-ul{
+ul {
     list-style-type: none;
     display: flex;
     gap: 15px;
 }
 
-a{
+a {
     text-decoration: none;
-    font-size:18px;
+    font-size: 18px;
     color: var(--linkColor);
     font-weight: 300;
 }
 
 
-.oneScreen{
+.oneScreen {
     background-color: var(--backgroundColor);
     width: 100%;
     display: flex;
@@ -37,7 +37,7 @@ a{
 }
 
 
-.content{
+.content {
     display: flex;
     flex-direction: column;
     font-family: Roboto;
@@ -46,68 +46,69 @@ a{
 
 
 
-.logo{
+.logo {
     font-size: 24px;
     font-weight: 900;
     color: var(--logoColor);
 }
 
-.headerMenu{
+.headerMenu {
     display: flex;
     justify-content: space-between;
-    align-items:center;
+    align-items: center;
     padding: 30px;
 }
 
-.infoScreen{
+.infoScreen {
     display: flex;
     justify-content: space-between;
     margin: 100px 0;
 }
 
-.imageOne{
+.imageOne {
     width: 500px;
     height: 500px;
 }
 
-.imageOneScreen{
-    object-fit:cover;
+.imageOneScreen {
+    object-fit: cover;
     width: 500px;
     height: 500px;
 }
 
-.titleText{
+.titleText {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
     margin: 0 0;
 }
 
-.mainText{
+.mainText {
     font-size: 18px;
     color: #E5E7EB;
-    font-weight:300;
+    font-weight: 300;
     margin: 15px 100px 15px 0;
 
 }
 
-.textOneScreen{
+.textOneScreen {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
 }
 
-.button{
+.button {
     font-size: 16px;
-    font-weight:600;
+    font-weight: 600;
     color: #F9FAF8;
     padding: 8px 30px;
     background-color: var(--mainColor);
     border-radius: 5px;
     border: 0;
 }
-.twoScreen{
+
+.twoScreen {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -117,17 +118,17 @@ a{
 
 }
 
-.twoScreenHeading{
+.twoScreenHeading {
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
     display: flex;
-    justify-content:center ;
+    justify-content: center;
     margin-bottom: 50px;
 }
 
-.twoScreenImage{
-    object-fit:cover;
+.twoScreenImage {
+    object-fit: cover;
     width: 180px;
     height: 180px;
     border-radius: 20px;
@@ -135,39 +136,39 @@ a{
     margin-bottom: 10px;
 }
 
-.blockInformationeTwo{
+.blockInformationeTwo {
     display: flex;
-    flex-direction:row;
+    flex-direction: row;
     justify-content: space-evenly;
     text-align: center;
 }
 
-.elementsText{
+.elementsText {
     width: 180px;
 }
 
-.threeScreenCitata{
+.threeScreenCitata {
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     margin-right: 80px;
     margin-left: 80px;
 }
 
-.threeScreenCitataMain{
+.threeScreenCitataMain {
     font-size: 36px;
     font-weight: lighter;
     font-style: italic;
     color: #1F2937;
 }
 
-.threeScreenCitataAutor{
+.threeScreenCitataAutor {
     font-size: 24px;
-    color: #1F2937 ;
+    color: #1F2937;
     font-weight: 900;
     text-align: end;
 }
 
-.threeScreen{
+.threeScreen {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -178,16 +179,15 @@ a{
 }
 
 
-.fourScreen{
+.fourScreen {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 50px 0;
 }
 
-.fourScreenBlock{
+.fourScreenBlock {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -195,33 +195,33 @@ a{
     background-color: #3882F6;
     padding: 50px 70px;
     border-radius: 10px;
-    margin: 50px 0;
+    margin: 100px 0;
 
 }
 
-.fourScreenBlockText{
+.fourScreenBlockText {
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     align-items: flex-start;
     justify-content: center;
     margin-left: 70px;
 }
 
-.fourScreenBlockTextTitle{
+.fourScreenBlockTextTitle {
     font-size: 24px;
     color: #F9FAF8;
     font-weight: 900;
 }
 
-.fourScreenBlockTextMain{
+.fourScreenBlockTextMain {
     font-size: 18px;
-    color:#E5E7EB ;
+    color: #E5E7EB;
     font-weight: lighter;
 }
 
-.fourScreenBlockTextButton{
+.fourScreenBlockTextButton {
     font-size: 16px;
-    font-weight:600;
+    font-weight: 600;
     color: #F9FAF8;
     padding: 6px 30px;
     background-color: var(--mainColor);
@@ -230,7 +230,7 @@ a{
     margin-right: 70px;
 }
 
-.fiveScreen{
+.fiveScreen {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -238,7 +238,7 @@ a{
     padding: 25px 0;
 }
 
-.fiveScreenText{
+.fiveScreenText {
     font-size: 18px;
     color: #E5E7EB;
     font-weight: lighter;
